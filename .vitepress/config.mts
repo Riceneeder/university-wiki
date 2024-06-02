@@ -39,4 +39,9 @@ export default defineConfig({
     }
   },
   // lastUpdated: true
+  vite: {
+    ssr: {
+      noExternal: ['naive-ui', 'date-fns', 'vueuc']
+    }
+  },
 });
