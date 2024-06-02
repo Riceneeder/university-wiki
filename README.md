@@ -7,7 +7,7 @@
 
 ## 方法一：通过 git 提交（推荐）
 
-1. Fork 本项目
+1. Fork [本项目](https://github.com/Riceneeder/university-wiki)
 2. 在`universities`目录下找到你的学校，如果没有请新建一个，文件名为学校的中文名，例如`清华大学.md`
 3. 复制模板到文件中，填写你的学校信息
 4. 在`public/universityList.json`中查看你的学校是否已经存在，如果没有请添加，格式为

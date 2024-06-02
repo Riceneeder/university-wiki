@@ -17,11 +17,11 @@ export default defineConfig({
     nav: [
       { text: "主页", link: "/" },
       { text: "高校列表", link: "/all-university" },
-      { text: "分享你的学校", link: "/share-yours" },
+      { text: "分享你的学校", link: "/README" },
       { text: "关于", link: "/about" },
     ],
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/Riceneeder/university-wiki" },
     ],
     footer: {
       message:
@@ -33,6 +33,10 @@ export default defineConfig({
     },
     logo: "/icon.svg",
     externalLinkIcon: true,
+    editLink: {
+      pattern: 'https://github.com/Riceneeder/university-wiki/edit/main/:path',
+      text: '在GitHub上编辑此页',
+    }
   },
   // lastUpdated: true
 });
