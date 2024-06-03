@@ -49,6 +49,7 @@ function setComments() {
     script.setAttribute("comment-order", "desc");
     script.setAttribute("input-position", "top");
     script.setAttribute("crossorigin", "anonymous");
+    script.setAttribute("branch","main")
     script.async = true;
     comments.value.innerHTML = "";
     comments.value.appendChild(script);
