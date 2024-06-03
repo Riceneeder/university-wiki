@@ -12,6 +12,7 @@ import DefaultTheme from "vitepress/theme";
 import { useData } from 'vitepress';
 import { data as universityList } from "../universitiesList.data.mts";
 import json2map from "../json2map.mts";
+import Comment from "./Comment.vue";
 
 const { Layout } = DefaultTheme;
 const universityMap = json2map(universityList);
@@ -51,6 +52,9 @@ const { isDark } = useData();
         </NPageHeader>
         <n-divider />
       </n-config-provider>
+    </template>
+    <template #doc-after>
+      <Comment/>
     </template>
   </Layout>
 </template>
