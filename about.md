@@ -4,14 +4,16 @@
 
 ## 鸣谢
 
-1. [GitHub](https://github.com)：提供了这个项目的托管
+1. [Vercel](https://vercel.com/)：提供了这个项目的托管
 2. [VuePress](https://vuepress.vuejs.org)：提供了这个项目的框架
 3. [Naive UI](https://www.naiveui.com)：提供了这个项目的部分UI组件
 4. [university-information](https://github.com/CollegesChat/university-information/): 提供了这个项目部分的灵感
 
 ## 贡献者
 
-[![](https://opencollective.com/university-wiki/contributors.svg?width=890&button=false)](https://github.com/Riceneeder/university-wiki/graphs/contributors)
+<a href="https://github.com/Riceneeder/university-wiki/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Riceneeder/university-wiki" />
+</a>
 
 ## 祝所有师兄师姐们毕业快乐
 ![花](/assets/花.jpg)
