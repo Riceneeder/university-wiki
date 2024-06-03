@@ -34,7 +34,7 @@
 
 ## 方法二：通过issue提交
 
-1. 到本项目的仓库点击右上角的`Issues`
+1. 到[本项目的仓库](https://github.com/Riceneeder/university-wiki)点击右上角的`Issues`
 2. 点击`New issue`
 3. 标题填写`分享学校信息：学校中文名`或`分享学校信息：学校中文名`
 4. 在内容中填写你的学校信息
