@@ -13,7 +13,7 @@ hero:
       link: /all-university
     - theme: alt
       text: 分享你的学校
-      link: /share-yours
+      link: /README
 
 features:
   - title: 食堂
