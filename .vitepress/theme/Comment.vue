@@ -4,7 +4,7 @@ import Giscus from "@giscus/vue";
 import { nextTick } from 'vue'
 
 nextTick(()=>{
-    const giscusIframe = document.querySelector<HTMLIFrameElement>('iframe.giscus-frame');
+    const giscusIframe = window.document.querySelector<HTMLIFrameElement>('iframe.giscus-frame');
     if (!giscusIframe) return;
     giscusIframe.contentWindow?.location.reload();
 })
