@@ -41,6 +41,9 @@ export default defineConfig({
       text: '更新时间',
     },
   },
+  head:[
+    ['link', { rel: 'icon', href: '/icon.svg' }]
+  ],
   lastUpdated: true,
   vite: {
     ssr: {
