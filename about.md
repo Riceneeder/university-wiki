@@ -11,7 +11,7 @@
 
 ## 贡献者
 
-[![](https://opencollective.com/html-react-parser/contributors.svg?width=890&button=false)](https://github.com/Riceneeder/university-wiki/graphs/contributors)
+[![](https://opencollective.com/university-wiki/contributors.svg?width=890&button=false)](https://github.com/Riceneeder/university-wiki/graphs/contributors)
 
 ## 祝所有师兄师姐们毕业快乐
 ![花](/assets/花.jpg)
