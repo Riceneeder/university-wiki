@@ -1,43 +1,52 @@
 {
-  "hash": "5758d18a",
+  "hash": "51c4bb02",
   "configHash": "b7227657",
-  "lockfileHash": "63daf275",
-  "browserHash": "b162b300",
+  "lockfileHash": "5650b8d1",
+  "browserHash": "49880ca5",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "c841060f",
+      "fileHash": "7c794cc2",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "6e340a0f",
+      "fileHash": "a89b6b94",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "a295b3f9",
+      "fileHash": "1c90361e",
       "needsInterop": false
     },
     "naive-ui": {
       "src": "../../../node_modules/naive-ui/es/index.mjs",
       "file": "naive-ui.js",
-      "fileHash": "8422b6af",
+      "fileHash": "ac5a5dbf",
       "needsInterop": false
     },
     "@giscus/vue": {
       "src": "../../../node_modules/@giscus/vue/dist/index.js",
       "file": "@giscus_vue.js",
-      "fileHash": "2d4c30f3",
+      "fileHash": "d25210ff",
+      "needsInterop": false
+    },
+    "vitepress-plugin-comment-with-giscus": {
+      "src": "../../../node_modules/vitepress-plugin-comment-with-giscus/lib/giscus.js",
+      "file": "vitepress-plugin-comment-with-giscus.js",
+      "fileHash": "e1b25875",
       "needsInterop": false
     }
   },
   "chunks": {
     "chunk-JWA4H7QR": {
       "file": "chunk-JWA4H7QR.js"
+    },
+    "giscus-aTimukGI-2GUC6NOB": {
+      "file": "giscus-aTimukGI-2GUC6NOB.js"
     },
     "giscus-BNK3dBIH-RGH3HBN4": {
       "file": "giscus-BNK3dBIH-RGH3HBN4.js"

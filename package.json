@@ -10,6 +10,6 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "@giscus/vue": "^3.0.0"
+    "vitepress-plugin-comment-with-giscus": "^1.1.15"
   }
 }
