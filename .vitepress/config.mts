@@ -18,7 +18,8 @@ export default defineConfig({
       { text: "主页", link: "/" },
       { text: "高校列表", link: "/all-university" },
       { text: "分享你的学校", link: "/README" },
-      { text: "关于", link: "/about" },
+      { text: "关于University Wiki", link: "/about" },
+      { text: "大学生活质量指北", link: "https://colleges.chat/"}
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/Riceneeder/university-wiki" },
