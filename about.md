@@ -9,7 +9,7 @@
 3. [Naive UI](https://www.naiveui.com)：提供了这个项目的部分UI组件
 4. [university-information](https://github.com/CollegesChat/university-information/): 提供了这个项目部分的灵感
 
-## 贡献者
+## 贡献者（仅展示以git方式提交的）
 
 <a href="https://github.com/Riceneeder/university-wiki/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Riceneeder/university-wiki" />
