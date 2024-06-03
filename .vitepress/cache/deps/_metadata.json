@@ -1,43 +1,37 @@
 {
-  "hash": "51c4bb02",
+  "hash": "389679dc",
   "configHash": "b7227657",
-  "lockfileHash": "5650b8d1",
-  "browserHash": "49880ca5",
+  "lockfileHash": "5bb55145",
+  "browserHash": "96e626be",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "7c794cc2",
+      "fileHash": "f4ed1aeb",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "a89b6b94",
+      "fileHash": "bbea2019",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "1c90361e",
-      "needsInterop": false
-    },
-    "naive-ui": {
-      "src": "../../../node_modules/naive-ui/es/index.mjs",
-      "file": "naive-ui.js",
-      "fileHash": "ac5a5dbf",
-      "needsInterop": false
-    },
-    "@giscus/vue": {
-      "src": "../../../node_modules/@giscus/vue/dist/index.js",
-      "file": "@giscus_vue.js",
-      "fileHash": "d25210ff",
+      "fileHash": "efd8b554",
       "needsInterop": false
     },
     "vitepress-plugin-comment-with-giscus": {
       "src": "../../../node_modules/vitepress-plugin-comment-with-giscus/lib/giscus.js",
       "file": "vitepress-plugin-comment-with-giscus.js",
-      "fileHash": "e1b25875",
+      "fileHash": "c6020ca3",
+      "needsInterop": false
+    },
+    "naive-ui": {
+      "src": "../../../node_modules/naive-ui/es/index.mjs",
+      "file": "naive-ui.js",
+      "fileHash": "cef87a7f",
       "needsInterop": false
     }
   },
@@ -45,11 +39,8 @@
     "chunk-JWA4H7QR": {
       "file": "chunk-JWA4H7QR.js"
     },
-    "giscus-aTimukGI-2GUC6NOB": {
-      "file": "giscus-aTimukGI-2GUC6NOB.js"
-    },
-    "giscus-BNK3dBIH-RGH3HBN4": {
-      "file": "giscus-BNK3dBIH-RGH3HBN4.js"
+    "giscus-aTimukGI-TS5SOEZO": {
+      "file": "giscus-aTimukGI-TS5SOEZO.js"
     },
     "chunk-ZS7NZCD4": {
       "file": "chunk-ZS7NZCD4.js"

@@ -36,9 +36,12 @@ export default defineConfig({
     editLink: {
       pattern: 'https://github.com/Riceneeder/university-wiki/edit/main/:path',
       text: '在GitHub上编辑此页',
-    }
+    },
+    lastUpdated: {
+      text: '更新时间',
+    },
   },
-  // lastUpdated: true
+  lastUpdated: true,
   vite: {
     ssr: {
       noExternal: ['naive-ui', 'date-fns', 'vueuc']

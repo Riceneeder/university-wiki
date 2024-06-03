@@ -12,7 +12,7 @@ import {
 } from "./chunk-JWA4H7QR.js";
 import "./chunk-ZS7NZCD4.js";
 
-// node_modules/vitepress-plugin-comment-with-giscus/node_modules/@giscus/vue/dist/index.mjs
+// node_modules/@giscus/vue/dist/index.mjs
 var d = ["id", "host", "repo", "repoid", "category", "categoryid", "mapping", "term", "strict", "reactionsenabled", "emitmetadata", "inputposition", "theme", "lang", "loading"];
 var l = defineComponent({
   __name: "Giscus",
@@ -36,7 +36,7 @@ var l = defineComponent({
   setup(s) {
     const t = ref(false);
     return onMounted(() => {
-      t.value = true, import("./giscus-aTimukGI-2GUC6NOB.js");
+      t.value = true, import("./giscus-aTimukGI-TS5SOEZO.js");
     }), (e, m) => t.value ? (openBlock(), createElementBlock("giscus-widget", {
       key: 0,
       id: e.id,

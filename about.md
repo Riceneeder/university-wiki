@@ -5,7 +5,7 @@
 ## 鸣谢
 
 1. [Vercel](https://vercel.com/)：提供了这个项目的托管
-2. [VuePress](https://vuepress.vuejs.org)：提供了这个项目的框架
+2. [vitepress](https://vitepress.dev/)：提供了这个项目的框架
 3. [Naive UI](https://www.naiveui.com)：提供了这个项目的部分UI组件
 4. [university-information](https://github.com/CollegesChat/university-information/): 提供了这个项目部分的灵感
 
