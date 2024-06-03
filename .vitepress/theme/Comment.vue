@@ -43,9 +43,9 @@ function setComments() {
     script.src = "https://beaudar.lipk.org/client.js";
     // TODO: 修改为自己的配置
     script.setAttribute("repo", "Riceneeder/university-wiki");
-    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("issue-term", "title");
     script.setAttribute("label", "💬评论");
-    script.setAttribute("issue-label", "pathname");
+    script.setAttribute("issue-label", "url");
     script.setAttribute("comment-order", "desc");
     script.setAttribute("input-position", "top");
     script.setAttribute("crossorigin", "anonymous");
