@@ -1,19 +1,13 @@
 import { defineConfig } from "vitepress";
+import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'zh-cn',
   title: "University Wiki",
   description: "帮助学生在入学前了解学校在官网没有的信息",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    search: {
-      provider: "algolia",
-      options: {
-        appId: "B6W1O26PC5",
-        apiKey: "56aae5604eaeca1c12d877a98df63f88",
-        indexName: "University Wiki",
-      },
-    },
     nav: [
       { text: "主页", link: "/" },
       { text: "高校列表", link: "/all-university" },
@@ -49,6 +43,15 @@ export default defineConfig({
   vite: {
     ssr: {
       noExternal: ['naive-ui', 'date-fns', 'vueuc']
-    }
+    },
+    plugins: [pagefindPlugin(
+      {
+        btnPlaceholder: '搜索',
+        placeholder: '搜索高校',
+        emptyText: '空空如也',
+        heading: '共: {{searchResult}} 条结果',
+        customSearchQuery: chineseSearchOptimize
+      }
+    )],
   },
 });

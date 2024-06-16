@@ -10,6 +10,8 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "vitepress-plugin-comment-with-giscus": "^1.1.15"
+    "pagefind": "^1.1.0",
+    "vitepress-plugin-comment-with-giscus": "^1.1.15",
+    "vitepress-plugin-pagefind": "^0.4.1"
   }
 }
